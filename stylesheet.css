@@ -3,10 +3,11 @@ header{
     flex: row;
    justify-content: center;
     align-items: center;
-   
+    background-color: rgb(57, 52, 52);
 }
 .logo{
     max-height: 50px;
     max-width: 50px;
     border-radius: 20px ;
+    
 }
