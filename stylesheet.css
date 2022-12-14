@@ -8,6 +8,23 @@ header{
 .logo{
     max-height: 50px;
     max-width: 50px;
-    border-radius: 20px ;
-    
+    border-radius: 20px ;  
 }
+
+h1 {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.score{
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 5px;
+    text-align: center;
+    background-color: rgb(57, 52, 52) ;  
+    color: white;
+    border-radius: 3px;  
+}
+
