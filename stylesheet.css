@@ -78,3 +78,45 @@ h1 {
     text-align: center;
 }
 
+#choices{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    justify-content: center;
+  } 
+   
+  .paper{
+     padding-right: 40px;
+     max-width: 70px;
+     max-height: 50px;
+     /* border-radius: 70px; */
+     
+     
+  }
+  .fig-paper{
+      padding-right: 40px;
+  }
+  
+  .rock{
+      max-width: 70px;
+      max-height: 50px;
+      border-radius: 30px;
+   }
+  
+   .fig-rock{
+      text-align: center;
+   }
+  
+   .scissors{
+     padding-left: 40px;
+     max-width: 70px;
+     max-height: 50px;
+   } 
+  
+   .fig-scissors{
+      padding-left: 40px;
+  }
+  
+   
