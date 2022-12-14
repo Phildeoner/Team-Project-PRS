@@ -1,127 +1,145 @@
 * {
-    margin: 0%;
+   margin: 0%;
 }
+
+
 header{
-    display: flex;
-    flex: row;
+   display: flex;
+   flex: row;
    justify-content: center;
-    align-items: center;
-    background-color: rgb(57, 52, 52);
+   align-items: center;
+   height: 70px;
+   background-color: rgb(57, 52, 52);
 }
+
+
 .logo{
-    max-height: 50px;
-    max-width: 50px;
-    border-radius: 20px ;  
+   max-height: 50px;
+   max-width: 50px;
+   border-radius: 20px ;  
 }
+
 
 h1 {
-    color: white;
-    font-weight: bold;
-    text-transform: uppercase;
+   color: white;
+   font-weight: bold;
+   text-transform: uppercase;
 }
+
+
 .score{
-    font-weight: bold;
-    margin-bottom: 0px;
-    margin-left: 180px;
-    margin-right: 180px;
-    margin-top: 5px;
-    text-align: center;
-    background-color: rgb(57, 52, 52) ;  
-    color: white;
-    border-radius: 3px;  
+   font-weight: bold;
+   margin-bottom: 0px;
+   margin-left: 180px;
+   margin-right: 180px;
+   margin-top: 5px;
+   text-align: center;
+   background-color: rgb(57, 52, 52) ;  
+   color: white;
+   border-radius: 3px;  
 }
+
 
 .Score-board{
-    border: 3px solid black;
-    margin: auto ;
-    width: 100px;
-    height: 50px;
-    border-radius: 4px;
-    text-align: center;
-    padding: 15px;
-    position: relative;
+   border: 3px solid black;
+   margin: auto ;
+   width: 100px;
+   height: 50px;
+   border-radius: 4px;
+   text-align: center;
+   padding: 15px;
+   position: relative;
 }
+
 
 .board{
-    font-size: 14px;
-    padding: 2px 10px;
-    color: white;
-    background-color: rgb(57, 52, 52);
+   font-size: 14px;
+   padding: 2px 10px;
+   color: white;
+   background-color: rgb(57, 52, 52);
 }
+
 
 .round{
-    font-size: large;
-    font-weight: bold;
-    margin: 5px;
-     
-}
-#user{
-    position: absolute;
-    top: 25px;
-    left: -25px;
-    width: 22px;
-    border-radius: 3px;
+   font-size: large;
+   font-weight: bold;
+   margin: 5px;    
 }
 
+
+#user{
+   position: absolute;
+   top: 15px;
+   left: -25px;
+   width: 22px;
+   border-radius: 3px;
+}
+
+
 #computer{
-    position: absolute;
-    top: 25px;
-    right: -25px;
-    width: 22px;
-    border-radius: 3px;
+   position: absolute;
+   top: 15px;
+   right: -25px;
+   width: 22px;
+   border-radius: 3px;
 }
 
 
 .winner{
-    padding: 20px;
-    font-size: 20px;
-    text-align: center;
+   padding: 20px;
+   font-size: 20px;
+   text-align: center;
 }
 
+
 #choices{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    align-items: center;
-    height: 100px;
-    justify-content: center;
-  } 
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  height: 100px;
+  justify-content: center;
+} 
+  
+  
+.paper{
+   padding-right: 40px;
+   max-width: 70px;
+   max-height: 50px;  
+}
+
+
+.fig-paper{
+   padding-right: 40px;
+}
+ 
+
+.rock{
+   max-width: 70px;
+   max-height: 50px;
+   border-radius: 30px;
+}
+ 
    
-  .paper{
-     padding-right: 40px;
-     max-width: 70px;
-     max-height: 50px;
-     /* border-radius: 70px; */
-     
-     
-  }
-  .fig-paper{
-      padding-right: 40px;
-  }
+.fig-rock{
+   text-align: center;
+}
   
-  .rock{
-      max-width: 70px;
-      max-height: 50px;
-      border-radius: 30px;
-   }
+
+.scissors{
+   padding-left: 40px;
+   max-width: 70px;
+   max-height: 50px;
+} 
+
+
+.fig-scissors{
+    padding-left: 40px;
+}
   
-   .fig-rock{
-      text-align: center;
-   }
-  
-   .scissors{
-     padding-left: 40px;
-     max-width: 70px;
-     max-height: 50px;
-   } 
-  
-   .fig-scissors{
-      padding-left: 40px;
-  }
-  
-   .move{
+
+.move{
       font-size: 20px;
-      text-align: center;
-    
-   }
+      text-align: center;  
+}
       
